@@ -1,0 +1,61 @@
+.div1 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-bottom: 2px solid #000;
+}
+
+.div1 h1 {
+  font-size: 40px;
+  background-color: #4aaaa5;
+  padding: 5px 12px;
+}
+
+.ul li {
+  display: inline-block;
+  font-size: 25px;
+  color: beige;
+  padding: 5px 12px;
+}
+
+.ul li + li:before {
+  content: "|";
+  color: #4aaaa5;
+  font-size: 12px;
+  margin: 5px;
+}
+.div {
+  margin: 2em 1em;
+  width: 200px;
+  position: relative;
+}
+.div img {
+  width: 100%;
+}
+.div-name {
+  background-color: #4aaaa5;
+  padding: 12px 0;
+  text-align: center;
+  font: size 1.5em;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+}
+.umumi {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.umumi1 {
+  display: flex;
+  justify-content: flex-start;
+  /* flex-wrap: wrap; */
+  /* justify-content: flex-start; */
+}
+.div2 {
+  margin: 2rem 5rem;
+  font-size: 20px;
+}
